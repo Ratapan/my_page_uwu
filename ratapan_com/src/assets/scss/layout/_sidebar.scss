@@ -1,0 +1,14 @@
+// Sidebar
+.side-bar{
+   display: flex;
+   flex-direction: column;
+   justify-content: center;
+   align-items: center;
+   height: 100vh;
+   &__list{
+      display: flex;
+   flex-direction: column;
+   justify-content: center;
+   align-items: center;
+   }
+}
