@@ -12,13 +12,18 @@
       },
       {
          "var": "--c-back_2",
-         "value_light": "#f5f2ed",
-         "value_darck": "#151515"
+         "value_light": "#f3e7d5",
+         "value_darck": "#2b2a2e"
       },
       {
          "var": "--c-select",
-         "value_light": "#d9d2ff",
+         "value_light": "#433497",
          "value_darck": "#584ca0"
+      },
+      {
+         "var": "--c-link",
+         "value_light": "#c27beb",
+         "value_darck": "#42b983"
       }
    ]
 }

@@ -1,14 +1,8 @@
 import { createStore } from 'vuex'
+import sideBarModule from './modules/storeSidebar'
 
 export default createStore({
-  state: {
-  },
-  getters: {
-  },
-  mutations: {
-  },
-  actions: {
-  },
   modules: {
+    sideBarModule
   }
 })

@@ -1,0 +1,35 @@
+.box-info{
+   display: flex;
+   align-items: center;
+   margin: 0 auto 0 auto;
+   max-width: 100%;
+   background-color: var(--c-back_2);
+   border-radius: 15px;
+   -webkit-border-radius: 15px;
+   -moz-border-radius: 15px;
+   -ms-border-radius: 15px;
+   -o-border-radius: 15px;
+   padding: 10px;
+   @media(max-width:$max-tablet){
+      flex-direction: column;
+      justify-content: center;
+   }
+   &__box-img{
+      overflow: hidden;
+      border-radius: 25px;
+      -webkit-border-radius: 25px;
+      -moz-border-radius: 25px;
+      -ms-border-radius: 25px;
+      -o-border-radius: 25px;
+      @include fl_center();
+      max-width: 100%;
+      min-width: 30%;
+}
+   &__img{
+      max-height: 100%;
+      max-width: 100%;
+   }
+   &__text{
+      padding: 0 0 0 10px;
+   }
+}

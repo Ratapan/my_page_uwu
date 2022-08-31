@@ -7,6 +7,7 @@
   box-sizing: border-box;
   vertical-align: baseline;
   font-family: 'Nunito M', sans-serif;
+  color: var(--c-black);
 }
 
 video {
@@ -23,7 +24,7 @@ p a {
   padding: 0;
 }
 a {
-  color: #42b983;
+  color: var(--c-link);
 }
 
 li {
@@ -40,6 +41,11 @@ td {
 html {
   scroll-behavior: smooth;
   background-color: var(--c-back);
+  transition: background-color .4s;
+  -webkit-transition: background-color .4s;
+  -moz-transition: background-color .4s;
+  -ms-transition: background-color .4s;
+  -o-transition: background-color .4s;
 }
 
 h1,
