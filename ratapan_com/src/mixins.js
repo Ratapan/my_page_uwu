@@ -4,8 +4,8 @@
   const theme = {
     
    mounted(){
-    // this.$ls.remove('themes')
-    // this.$ls.remove('theme')
+    //this.$ls.remove('themes')
+    //this.$ls.remove('theme')
       if(this.$ls.get('theme') == null || this.$ls.get('themes') == null){
         this.$ls.set('theme','theme_light')
         this.$ls.set('themes', themes.themes);
@@ -17,6 +17,7 @@
     },
    methods: {
       changeTheme(){
+       
          let themes_arr = this.$ls.get('themes');
          let theme = this.$ls.get('theme');
          for (let i = 0; i < themes_arr.length; i++) {

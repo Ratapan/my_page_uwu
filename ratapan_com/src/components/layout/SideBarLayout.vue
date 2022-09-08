@@ -1,4 +1,3 @@
-<!-- changeTheme() -->
 <template>
   <div class="side-bar">
     <h2 class="side-bar__title">
@@ -55,13 +54,13 @@ export default {
       theme_select: this.$ls.get("theme") !== "theme_light",
       current_page: "",
       bar_list: [
+        // {
+        //   name: "Home",
+        //   name_back:"H",
+        //   path: "/",
+        // },
         {
           name: "Home",
-          name_back:"H",
-          path: "/",
-        },
-        {
-          name: "About me",
           name_back: "A",
           path: "/about-me",
         },
@@ -70,16 +69,16 @@ export default {
           name_back: "T",
           path: "/tools",
         },
-        {
-          name: "Services",
-          name_back: "S",
-          path: "/services",
-        },
-        {
-          name: "Blog",
-          name_back: "B",
-          path: "/blog",
-        }
+        // {
+        //   name: "Services",
+        //   name_back: "S",
+        //   path: "/services",
+        // },
+        // {
+        //   name: "Blog",
+        //   name_back: "B",
+        //   path: "/blog",
+        // }
       ],
     };
   },

@@ -1,16 +1,18 @@
 import { createRouter, createWebHistory } from 'vue-router'
-import Home from './home_router'
-import Blog from './blog_router'
-import Tools from './tools_router'
-import About from './about_router'
-import Service from './service_router'
+import Init from './routes/init_router'
+import Home from './routes/home_router'
+import Blog from './routes/blog_router'
+import Tools from './routes/tools_router'
+import About from './routes/about_router'
+import Service from './routes/service_router'
 
 const routes = [
+  ...Init.InitList,
   ...Home.HomeList,
   ...Blog.BlogList,
   ...Tools.ToolList,
   ...About.AboutList,
-  ...Service.ServiceList
+  ...Service.ServiceList,
 ]
 
 const router = createRouter({

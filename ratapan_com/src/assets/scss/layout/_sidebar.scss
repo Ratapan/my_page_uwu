@@ -20,6 +20,7 @@
   }
   &__title-text {
     font-family: "Nunito B";
+    font-size: 28px;
     z-index: 50;
   }
   &__title-image {
@@ -38,14 +39,14 @@
     background-color: var(--c-back_2);
     position: absolute;
     @include fl_center();
-    border-radius: 20px;
-    -webkit-border-radius: 20px;
-    -moz-border-radius: 20px;
-    -ms-border-radius: 20px;
-    -o-border-radius: 20px;
+    border-radius: var(--r-big);
+    -webkit-border-radius: var(--r-big);
+    -moz-border-radius: var(--r-big);
+    -ms-border-radius: var(--r-big);
+    -o-border-radius: var(--r-big);
     border: 2px solid var(--c-back);
     cursor: pointer;
-  }
+}
   &__container-arrow-img{
     position: relative;
     right: -1px;
@@ -78,7 +79,7 @@
     width: 80%;
     margin: 0px 0 10px 0;
     @include btn_primary();
-    @include colors_transition();
+    @include colors_transition(0.5s, 0.3s);
   }
   &__list-item-active{
     text-decoration: underline;

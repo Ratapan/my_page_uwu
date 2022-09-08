@@ -16,7 +16,27 @@
       font-size: 40px;
    }
 }
-.parr_one{
+.title-second{
+   font-family: 'Nunito B';
+   @media(max-width:$max-tablet){
+      text-align: center;
+      padding: 15px 0 5px 0;
+   }
+   @media(max-width:$max-movil){
+      font-size: 24px !important;
+   }
+   @media(min-width:$max-movil){
+   font-size: 28px;
+   }
+   @media(min-width:$min-laptop){
+      font-size: 32px;
+   }
+   @media(min-width:$min-desktop){
+      font-size: 36px;
+   }
+}
+.parr__one{
+   font-family: 'Nunito R';
    @media(max-width:$max-movil){
    font-size: 16px;
    }

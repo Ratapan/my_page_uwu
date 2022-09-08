@@ -12,17 +12,17 @@
       },
       {
          "var": "--c-back_2",
-         "value_light": "#f3e7d5",
+         "value_light": "#F5E8C7",
          "value_darck": "#2b2a2e"
       },
       {
          "var": "--c-select",
-         "value_light": "#433497",
+         "value_light": "#9589dd",
          "value_darck": "#584ca0"
       },
       {
          "var": "--c-link",
-         "value_light": "#c27beb",
+         "value_light": "#AC7088",
          "value_darck": "#42b983"
       }
    ]

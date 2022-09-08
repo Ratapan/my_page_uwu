@@ -5,7 +5,10 @@ import store from './store'
 import Storage from 'vue-ls';
 import "./assets/scss/main.scss";
 import theme from "./mixins.js";
+
 const ratapan = createApp(App);
+
+
 
 const options = {
    namespace: 'vuejs__', // key prefix
